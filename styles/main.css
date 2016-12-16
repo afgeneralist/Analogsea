@@ -4,31 +4,37 @@
   font-family: 'Lato', sans-serif;
  }
 
+ .formcontainer {
+ 	position: relative;
+ 	top: 100px;
+ 	left: 400px;
+ 	width: 400px;
+ }
+
  body {
 	background-color: #3399ff;
 }
 
 header {
 	border: 1px solid black;
-	padding: 35px 0 0 550px;
 }
 
-header img {
+.logo {
 	height: 35px;
 	width: 150px;
+	position: relative;
+	left: 25%;
+	border: 1px solid black;
 }
 
 .signup {
 	background-color: white;
-	width: 400px;
-	height: 250px;
 }
 
 .login-info {
-	height: 250px;
+	
 }
 
 .login-info label {
-	padding: 300px;
 
 }

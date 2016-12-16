@@ -7,8 +7,10 @@
 </head>
 <body>
 
+	<div class="formcontainer">
+
 	<header>
-	 <img src="images/analogSea.png" alt="AnalogSea Header">
+	 <img src="images/analogSea.png" alt="AnalogSea Header" class="logo">
 	</header>
 
 		<form class="signup" action="/server-endpoint" method="post">
@@ -16,19 +18,23 @@
 			<fieldset name="login-info" class="login-info">
 			 <h3>Sign Up</h3>
 			 <label for="email" required>Email</label>
-			  <input placeholder="foo@bar.com" name="email" id="email" />
+			  <input placeholder="foo@bar.com" type="email" required name="email" id="email" />
 
 			 <label for="password" required>Password</label>
-			  <input placeholder="password1234" type="password" minlength="8" maxlength="16" name="password">
+			  <input placeholder="password1234" required type="password" minlength="8" maxlength="16" name="password">
 
+			</fieldset>
+
+			 <fieldset>
 			  <button type="submit">Sign Up</button>
-			  <a href="/forgot-password/new">Forgot Password?</a>
-
+			  
 			</fieldset>
 			</form>
 
+			<a href="/forgot-password/new">Forgot Password?</a>
+
 			<p>Already have an account? <a href="/login">Log in</a></p>
-			
+	</div>		
 
 </body>
 </html>
