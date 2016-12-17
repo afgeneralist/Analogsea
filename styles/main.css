@@ -16,7 +16,7 @@
 }
 
 header {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 
 .logo {
@@ -24,17 +24,35 @@ header {
 	width: 150px;
 	position: relative;
 	left: 25%;
-	border: 1px solid black;
+	margin-bottom: 10px;
+	/*border: 1px solid black;*/
 }
 
 .signup {
 	background-color: white;
+	border: none;
+}
+
+h3 {
+	text-align: center;
+	font-size: 35px;
+	font-weight: normal;
 }
 
 .login-info {
-	
+	margin-left: 20px;
+	border: none;
 }
 
-.login-info label {
+.label {
+	height: 40px;
+	width: 320px;
+	padding: 15px;
+	border: 2px solid #EEEEEE;
+}
+
+.submit {
+	border: none;
 
 }
+

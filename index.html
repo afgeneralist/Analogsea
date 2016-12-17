@@ -9,31 +9,31 @@
 
 	<div class="formcontainer">
 
-	<header>
-	 <img src="images/analogSea.png" alt="AnalogSea Header" class="logo">
-	</header>
+		<header>
+		 <img src="images/analogSea.png" alt="AnalogSea Header" class="logo">
+		</header>
 
-		<form class="signup" action="/server-endpoint" method="post">
+			<form class="signup" action="/server-endpoint" method="post">
 
-			<fieldset name="login-info" class="login-info">
-			 <h3>Sign Up</h3>
-			 <label for="email" required>Email</label>
-			  <input placeholder="foo@bar.com" type="email" required name="email" id="email" />
+				<fieldset name="login-info" class="login-info">
+				 <h3>Sign Up</h3>
+				 <label for="email" required><h4>Email</h4></label>
+				  <input placeholder="foo@bar.com" type="email" required name="email" id="email" class="label" />
 
-			 <label for="password" required>Password</label>
-			  <input placeholder="password1234" required type="password" minlength="8" maxlength="16" name="password">
+				 <label for="password" required><h4>Password</h4></label>
+				  <input placeholder="password1234" required type="password" minlength="8" maxlength="16" name="password" class="label">
 
-			</fieldset>
+				</fieldset>
 
-			 <fieldset>
-			  <button type="submit">Sign Up</button>
-			  
-			</fieldset>
+				 <fieldset class="submit">
+				  <button type="submit">Sign Up</button>
+				  
+				</fieldset>
 			</form>
 
-			<a href="/forgot-password/new">Forgot Password?</a>
+				<a href="/forgot-password/new">Forgot Password?</a>
 
-			<p>Already have an account? <a href="/login">Log in</a></p>
+				<p>Already have an account? <a href="/login">Log in</a></p>
 	</div>		
 
 </body>
